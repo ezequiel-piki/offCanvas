@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body
+style="position: relative;"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example3"
+
+
+
+>
+    <nav class="navbar navbar-dark bg-primary fixed-top" id="navbar-example3" >
+     <div class="container text-white">
+         <i
+        
+         class="bi bi-three-dots-vertical"
+         type="button"
+         aria-controls="offcanvasDemo1"
+         data-bs-toggle="offcanvas"
+         data-bs-target="#offcanvasDemo1"
+         ></i>
+     </div>
+
+    </nav>
+
+    <div class="container">
+    
+        <section id="uno" class="vh-100 pt-5">
+       <h2 class="display-5 mt-5">Uno</h2>
+       <p class="lead">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maiores fugit nam quos suscipit magnam reiciendis neque ducimus aspernatur, corrupti placeat quia at quo magni delectus! Tenetur sequi deserunt repudiandae.
+       </p>
+       </section>
+        
+       <section id="dos" class="vh-100 pt-5">
+        <h2 class="display-5 mt-5">Dos</h2>
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maiores fugit nam quos suscipit magnam reiciendis neque ducimus aspernatur, corrupti placeat quia at quo magni delectus! Tenetur sequi deserunt repudiandae.
+        </p>
+       </section>
+
+       <section id="tres" class="vh-100 pt-5">
+        <h2 class="display-5 mt-5">Tres</h2>
+        <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maiores fugit nam quos suscipit magnam reiciendis neque ducimus aspernatur, corrupti placeat quia at quo magni delectus! Tenetur sequi deserunt repudiandae.
+        </p>
+       </section>
+    </div>
+     
+    <div  
+    class="offcanvas offcanvas-start bg-primary text-white" 
+    id="offcanvasDemo1" 
+    aria-labelledby="offcanvasDemo1Label"
+    >
+     <div class="offcanvas-header">
+         
+        <h2 class="offcanvas-title text-center">Offcanvas</h2>
+         <h2
+         
+         type="button"
+         data-bs-dismiss="offcanvas"
+         aria-label="Close"
+
+         >
+        <i class="bi bi-arrow-left-short"></i>
+        </h2>
+     </div>
+
+     <div class="offcanvas-body">
+         <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam odit eos, necessitatibus adipisci aliquam, ipsam reiciendis eveniet atque modi totam laudantium alias quisquam omnis accusamus distinctio et laboriosam excepturi molestias.</p>
+         <div class="d-grid gap-2">
+            <a 
+            href="#uno"
+            class="btn btn-light" 
+            
+            data-bs-dismiss="offcanvas">
+            
+            <i class="bi bi-google"></i>
+                Uno
+            </a>
+            <a 
+            href="#dos"
+            class="btn btn-light" 
+            data-bs-dismiss="offcanvas"
+            >
+            <i class="bi bi-cash-coin"></i>
+            Dos
+            </a>
+            <a 
+            href="#tres"
+            class="btn btn-light" 
+            
+            data-bs-dismiss="offcanvas"
+            >
+            <i class="bi bi-joystick"></i>
+            Tres
+            </a>
+          </div>
+     </div>
+
+    </div>
+
+    <script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>
